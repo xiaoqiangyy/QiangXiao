@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-
+import os
 
 try:
     os.mkdir("gy_A")
-except:Exception
+except FileExistsError:
     print("文件夹已存在")
 
-print("sdhakdh")
+print("sdhakdgghrtfgdfgdfgdfjk24")
